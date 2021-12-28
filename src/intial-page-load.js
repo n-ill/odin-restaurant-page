@@ -15,10 +15,12 @@ function initialPageLoad() {
     h1.textContent = 'CHICAGO DEEP DISH PIZZA';
 
     let menu = document.createElement('a');
+    menu.id = 'menu';
     menu.textContent = 'MENU';
 
     let contact = document.createElement('a');
     contact.textContent = 'CONTACT US';
+    contact.id = 'contact';
 
     header.appendChild(icon);
     header.appendChild(h1);
