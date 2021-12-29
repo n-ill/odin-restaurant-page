@@ -64,7 +64,7 @@ a:hover {
     opacity: 90%;
     height: 75vh;
     width: 65vw;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     padding-top: 20px;
 }
@@ -80,4 +80,9 @@ a:hover {
     align-items: center;
     margin: 20px;
     margin-bottom: 30px;
+}
+
+.contact-info {
+    margin: 2vw;
+    margin-top: 10vh;
 }
